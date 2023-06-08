@@ -1,0 +1,46 @@
+.nav{
+    position: fixed;
+    background-color: rgb(230, 230, 230);
+    z-index: 2;
+    height: 80px;
+}
+
+.addPhoto{
+    position: absolute;
+    left:88%;
+    z-index: 3;
+}
+
+.search-form input{
+   height: 100%;
+}
+
+
+.addPhoto:hover{
+    padding: .50rem 2em;
+    transition: padding .5s;
+}
+
+.myunsplash:hover{
+    color: rgb(69, 129, 13);
+    transition: color .5s;
+}
+
+@media screen and (max-width: 1000px) {
+    .addPhoto{
+        left: 85%;
+    }
+}
+
+@media screen and (max-width: 770px) {
+    .addPhoto{
+        left: 80%;
+    }
+}
+
+@media screen and (max-width: 560px) {
+    .addPhoto{
+        left: 75%;
+    }
+}
+

@@ -1,0 +1,23 @@
+.forms-div{
+    top:5rem;
+    left: 0;
+    bottom: 0;
+    background: hsl(188, 100%, 37%, .5);
+}
+
+.forms{
+    top:10rem;
+    width: 400px;
+    left: 34rem;
+}
+
+.input-label{
+    width: 100%;
+}
+
+.input-form{
+    width: 90%;
+    margin:10px;
+    outline: none;
+    border: 1px solid rgb(44, 44, 44);
+}

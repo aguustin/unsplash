@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+  overflow-x:hidden;
+}
+
+.App::-webkit-scrollbar-thumb{
+  background-color: rgb(13, 199, 6);
+  border-radius: 10px;
+}
+
+.App::-webkit-scrollbar{
+  background-color: transparent;
+  width: 4px;
+}
+
+.unsplash{
+  margin-top:7rem;
+}
+
+.unsplash-imgs{
+  width: 420px;
+}
+
+.unsplash-imgs:hover{
+  cursor: pointer;
+  filter: brightness(.8) drop-shadow(6px 3px 9px #26E62F);
+  transition: filter .7s;
+}
+
+#delete, #cancel, .deleteB{
+  border-radius: 3px;
+  color: white;
+  padding: .1em 1em;
+  font-weight: 600;
+}
+
+#delete{
+  background-color: rgb(151, 18, 18);
+  margin-left: 10rem;
+  margin-top: 5px;
+}
+
+#cancel{
+  background-color: #35c53c;
+  margin-left: 1rem;
+  margin-top: 5px;
+}
+
+.deleteB{
+  bottom: 2.5rem;
+  right: 10rem;
+  background-color: red;
+}
+
+.deleteB:hover{
+  padding: .1em 1.3em;
+  transition: padding .2s;
+}
